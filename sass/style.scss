@@ -1,0 +1,25 @@
+@import 'reset';
+@import "fonts";
+
+//colours
+$color-near-white: #fafafa;
+$color-near-black: #303030;
+
+
+//font-sizes
+$font-size-main: 16px;
+
+//page-sizes
+$width-container: 960px;
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: Helvetica, sans-serif;
+  background: $color-near-white;
+  color: $color-near-black;
+  font-size: $font-size-main;
+}
